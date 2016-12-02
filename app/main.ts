@@ -10,9 +10,12 @@ import { ProfilComponent } from './profil.component';
 import { PageProfilComponent } from './page-profil.component';
 import { ActualiteComponent } from './actualite.component';
 
+import { routing } from './app.routing';
+
 @NgModule({
   imports: [ 
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   declarations: [ 
     AppComponent ,

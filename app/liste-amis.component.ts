@@ -6,5 +6,14 @@ import { Person } from './models/person.model';
     templateUrl: './app/liste-amis.component.html'
 })
 export class ListeAmisComponent {
-    @Input() amis : Person[]
+
+    amis : Person [] = [
+        new Person("Francis", "DUPONT", "francis.png", "francis.dupont@univ.fr"),
+        new Person("Robbie", "raidochaude", "robbie.png", "robbie.raidochaude@univ.fr"),
+        new Person("Sarah", "ABOÛt", "sarah.png", "sarah.about@univ.fr"),
+        new Person("helmut", "HARDALPIK", "helmut.png", "sarah.about@univ.fr"),
+        new Person("Quentin", "TINCHIMILOUPETE", "quentin.png", "sarah.about@univ.fr"),
+        new Person("Henriette", "LECANARFONMOINLEMALIN", "Henriette.png", "sarah.about@univ.fr")
+    ];
+
 }
