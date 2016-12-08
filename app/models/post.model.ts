@@ -1,9 +1,9 @@
 import { Person } from './person.model';
 
 export class Post {
-    auteur : Person;
     titre : string;
     text  : string;
+    auteur: Person;
 
     constructor (titre, text, auteur) {
         this.titre = titre;

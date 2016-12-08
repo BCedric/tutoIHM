@@ -1,0 +1,21 @@
+<br />
+<div *ngFor="let post of posts">
+    <div>
+
+        <div>
+            <img src="photos/{{post.auteur.urlPhoto}}">
+            <a>{{post.auteur.prenom}} {{post.auteur.nom}}</a>
+        </div>
+
+        <div>
+                <p> {{post.text}} </p>
+        </div>
+
+        <div>
+                <button>  favorite </button>
+                <button > share</button>
+        </div>
+
+    </div>
+    <br />
+</div>

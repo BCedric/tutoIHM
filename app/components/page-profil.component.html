@@ -1,0 +1,26 @@
+<!--
+<div>
+    <a routerLink="/liste-amis"> Amis</a>
+    <a routerLink="/actualite"> Actualité </a>
+</div>
+-->
+
+<md-toolbar color="default">
+  <a routerLink="/liste-amis"><button> Amis </button></a>
+  <a routerLink="/actualite"> <button> Acualités </button></a>
+</md-toolbar>
+<br />
+<div class="row">
+  <div class="col-sm-3">
+      <div>
+            <img src="photos/{{person.urlPhoto}}">
+            <h2>{{person.nom}} {{person.prenom}}</h2>
+      </div>
+  </div>
+  <div class="col-sm-8">
+      <router-outlet> </router-outlet>
+  </div>
+  <div class="col-sm-1">
+
+  </div>
+</div>

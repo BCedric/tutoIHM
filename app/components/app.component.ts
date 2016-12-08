@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Person } from './models/person.model';
+import { Person } from '../models/person.model';
 
 @Component({
     selector: 'mon-appli',
-    templateUrl: './app/app.component.html',           
+    templateUrl: './app/components/app.component.html',           
 })
 export class AppComponent {
     
